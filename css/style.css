@@ -45,10 +45,12 @@ h1 {
     gap:1em;
 }
 
-#mainimg{height:250px;
+#mainimg{
+    
+        height:300px;
         width: auto;
-        flex:1;
-        border-radius: 50%;
+        flex: 1;
+        border-radius: 100%;
         margin-top: 8px;
         margin-bottom: 8px;
 }
@@ -66,6 +68,7 @@ a {text-decoration: none;
 }
 
 button {border-radius: 20px;
+        border-style: none;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 25px;
@@ -80,36 +83,36 @@ button {border-radius: 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-top: 2em;
+margin-top: 3em;
 margin-bottom: 3em;
 
 }
 .stack{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap:2em
-
-
+    align-items: flex-start;
 }
 
-.card{display:flex;
+.card{
+    display:flex;
     flex-direction: column;
-    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
     flex-wrap: wrap;
     margin:30px;
     padding: 15px;
 
 
-        
-
 }
 
 .info img{
-    height:250px;
-    width:auto;
-    align-self: center;
-    flex-shrink: 0;
+    height: 250px;
+    width: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1F2937;
 
 }
 
@@ -151,6 +154,8 @@ margin-bottom: 3em;
 
 .lowbut {
     border-color: #F9Faf8;
+    border-style: solid
+    
 
 
 }
